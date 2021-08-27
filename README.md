@@ -36,10 +36,7 @@ The purpose of this experiment is to see how magnetic fields in certain places i
  - Color your magnet with the polish of your choice.
  - Attach the magnet to your string (I did this by glue, but you can do it other ways). 
  - Attach the cover to the base so the pendulum stays stable. Do not add any magnets there yet.
-2. Set up the background for the video you are going to take. Make sure that you have objects of all the same color covering the entire background of the video you are going to take. Make sure lighting is optimal. Here is my setup as an example:
-
- (This image, of course, is cropped, but as you can see, all of the background except for the magnet is a shade of black, and this is the background that got the blob detection to work)
- 
+2. Set up the background for the video you are going to take. Make sure that you have objects of all the same color covering the entire background of the video you are going to take. Make sure lighting is optimal. 
 3. Set your magnet at the height of the stand to the direction that the string unrolls in, then start recording your video in slow-motion as soon as you drop the magnet. Record for 10-15 seconds.
 4. Now add magnets in some of the spots of the pendulum stand and repeat Step 3. The number of magnets and the spots you want the magnets to be placed is something you should play with, but in the Data section it’ll show the amount of magnets and the spots of the magnets on the magnet base. You can test how many different combinations as you’d like, but for my sake, I tested 5 different combinations.
 5. Now, time to use blob detection code to get the magnet’s x and y position for each frame of the video using this google colab code (make sure to import your video into google colab runtime). Your code should look something like the code found in this repository, or at least work the same way.
